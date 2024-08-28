@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project generates QR code of any url or text. I have used two npm packages inquirer and qr-image to build this generator.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
