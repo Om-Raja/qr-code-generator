@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color:rgb(168, 227, 207);
+            width: 100%;
+            height: 100%;
+        }
+        nav a{
+            text-align: center;
+            padding: 10px;
+            display: flex;
+        }
+        nav a img{
+            padding-right: 8px;
+        }
+        .navbar{
+            background-color: rgb(105, 226, 186) !important;
+        }
+        nav{
+            border: 2px solid rgb(74, 48, 74);
+            border-radius: 6px;
+
+        }
+        h1{
+            text-align: center;
+            margin-top: 7%;
+        }
+        input{
+            border: 3px solid purple;
+            border-radius: 12px;
+            padding: 10px 80px;
+            margin-left: 35.5%;
+            margin-top: 4%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="elements/QRify logo.png" alt="Logo" width="50" height="auto" class="d-inline-block align-text-top">
+            <h2>QRify</h2>
+          </a>
+        </div>
+      </nav>
+    <h1>Create your QR Code</h1>
+    <input type="text" placeholder="www.google.com">
+    <button type="button" class="btn btn-lg btn-primary">Generate</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
